@@ -1,0 +1,11 @@
+
+‘
+java:S2259Ã"HA "NullPointerException" could be thrown; "connection" is nullable here.(Øîğ€ıÿÿÿÿ8¢Ş¿¨2J$63b8801b-29bf-4466-ba40-0107e01c59f2
+š
+java:S3655Î"VCall "alertButton.isPresent()" or "!alertButton.isEmpty()" before accessing the value.(šÖœŞ8¬Ş¿¨2J$4f203be6-eb1c-4b3d-b3cf-440f1e4e3e0d
+š
+java:S3655¹"VCall "alertButton.isPresent()" or "!alertButton.isEmpty()" before accessing the value.(šÖœŞ8Ö¾½¨2J$410e5d29-def0-4452-a9d9-e07a405cb3ac
+m	java:S106;"+Replace this use of System.out by a logger.(‹²æÓ8İ¾½¨2J$82576871-49d4-48d4-97d3-d4e2413b1a41
+o
+java:S1602B",Remove useless curly braces around statement(òêß×8İ¾½¨2J$8158343b-b3ac-47ca-8d90-aab8a7557eec
+s	java:S106Œ"+Replace this use of System.out by a logger.(ÉÜˆõúÿÿÿÿ8í¾½¨2J$5dd8c46f-8b6e-4a1c-ae54-a62020959a3e

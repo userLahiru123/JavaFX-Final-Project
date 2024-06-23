@@ -1,0 +1,15 @@
+
+k
+java:S2259–"HA "NullPointerException" could be thrown; "connection" is nullable here.(Øîğ€ıÿÿÿÿ8áœÖ­„2
+t
+java:S3655‹"VCall "alertButton.isPresent()" or "!alertButton.isEmpty()" before accessing the value.(šÖœŞ8âœÖ­„2
+t
+java:S3655¢"VCall "alertButton.isPresent()" or "!alertButton.isEmpty()" before accessing the value.(šÖœŞ8âœÖ­„2
+t
+java:S1602M",Remove useless curly braces around statement(üÕˆ÷üÿÿÿÿ8•–é¨2J$d7240713-55cd-433c-9406-1b5fd7b5f746
+t
+java:S1602^",Remove useless curly braces around statement(üÕˆ÷üÿÿÿÿ8–é¨2J$c47674dd-582d-46a8-8bc9-a4f63439f61a
+…
+java:S6353·"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ö´¯éùÿÿÿÿ8¨–é¨2J$e45e9366-142a-4d67-8570-3f609591a63e
+…
+java:S6353é"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ö´¯éùÿÿÿÿ8´–é¨2J$a9bfd149-c2ff-4bb5-8362-3aa6ed3348d1

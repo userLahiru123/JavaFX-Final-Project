@@ -1,0 +1,27 @@
+.body{
+
+	-fx-background-image: url(fashion.jpg);
+	-fx-background-size:contain;
+	-fx-background-position:center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size:100% 100%
+
+}
+
+.body02{
+
+	-fx-background-image: url(background.jpg);
+	-fx-background-size:contain;
+	-fx-background-position:center;
+	-fx-background-repeat: no-repeat;
+	-fx-background-size:100% 100%
+
+}
+
+.text-field {
+    -fx-prompt-text-fill: white;
+}
+
+.text-field2 {
+    -fx-prompt-text-fill: gray;
+}

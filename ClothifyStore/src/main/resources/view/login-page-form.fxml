@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXPasswordField?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.pages.LoginPageFormController">
+
+    <SplitPane dividerPositions="0.5" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+        <items>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #FE7C03;">
+                <children>
+                    <VBox alignment="CENTER" layoutX="48.0" layoutY="29.0" prefHeight="319.0" prefWidth="208.0" AnchorPane.bottomAnchor="50.0" AnchorPane.leftAnchor="48.0" AnchorPane.rightAnchor="40.0" AnchorPane.topAnchor="29.0">
+                        <children>
+                            <VBox alignment="CENTER">
+                                <children>
+                                    <Label text="WELCOME" textFill="#fcfafa">
+                                        <font>
+                                            <Font name="System Bold" size="28.0" />
+                                        </font>
+                                    </Label>
+                                    <Label text="to" textFill="#fcfafa">
+                                        <font>
+                                            <Font name="System Bold" size="28.0" />
+                                        </font>
+                                    </Label>
+                                    <Label text="CLOTHIFY" textFill="#fcfafa">
+                                        <font>
+                                            <Font name="System Bold" size="28.0" />
+                                        </font>
+                                        <VBox.margin>
+                                            <Insets />
+                                        </VBox.margin>
+                                    </Label>
+                                </children>
+                                <VBox.margin>
+                                    <Insets bottom="30.0" />
+                                </VBox.margin>
+                            </VBox>
+                            <JFXTextField fx:id="txtUserName" onKeyPressed="#txtUserNameOnAction" promptText="username" stylesheets="@assets/style.css" unFocusColor="WHITE">
+                                <opaqueInsets>
+                                    <Insets />
+                                </opaqueInsets>
+                                <VBox.margin>
+                                    <Insets bottom="20.0" left="20.0" right="20.0" />
+                                </VBox.margin>
+                            </JFXTextField>
+                            <JFXPasswordField fx:id="txtPassword" onKeyPressed="#txtPasswordOnAction" promptText="password" stylesheets="@assets/style.css" unFocusColor="WHITE">
+                                <padding>
+                                    <Insets left="20.0" right="20.0" />
+                                </padding>
+                                <VBox.margin>
+                                    <Insets bottom="20.0" />
+                                </VBox.margin>
+                            </JFXPasswordField>
+                     <Label fx:id="lblErrorMsg" text="Invalid username or password...." textFill="#f80202" />
+                            <JFXButton fx:id="btnLogin" onAction="#btnLoginOnAction" prefHeight="25.0" prefWidth="99.0" style="-fx-background-color: white;" text="LOGIN" textFill="#fe7c03">
+                                <font>
+                                    <Font name="System Bold" size="12.0" />
+                                </font>
+                                <VBox.margin>
+                                    <Insets top="10.0" />
+                                </VBox.margin>
+                            </JFXButton>
+                        </children>
+                    </VBox>
+                    <VBox alignment="CENTER" layoutY="364.0" prefHeight="34.0" prefWidth="296.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+                        <children>
+                            <Label text="clothifyStore.lk" textFill="#f8f5f5" />
+                        </children>
+                    </VBox>
+                </children>
+            </AnchorPane>
+            <AnchorPane prefHeight="200.0" prefWidth="200.0" styleClass="body" stylesheets="@assets/style.css" />
+        </items>
+    </SplitPane>
+
+</AnchorPane>

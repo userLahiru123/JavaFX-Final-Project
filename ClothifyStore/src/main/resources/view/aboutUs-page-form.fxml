@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="body02" stylesheets="@assets/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.pages.AboutUsPageFormController">
+   <children>
+      <BorderPane layoutX="-3.0" prefHeight="400.0" prefWidth="606.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <VBox alignment="TOP_RIGHT" prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Text fill="#fe7c03" stroke="#f8f8f7" strokeType="OUTSIDE" strokeWidth="2.0" text="www.softwareDeveloping.com">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets right="35.0" />
+                     </VBox.margin>
+                  </Text>
+               </children>
+            </VBox>
+         </bottom>
+         <top>
+            <AnchorPane prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #FE7C03;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="502.0" layoutY="3.0" text="About Us" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.rightAnchor="29.0" AnchorPane.topAnchor="4.0">
+                     <font>
+                        <Font name="System Bold Italic" size="16.0" />
+                     </font>
+                  </Label>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfeff" height="40.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="2.0" />
+               </children>
+               <BorderPane.margin>
+                  <Insets />
+               </BorderPane.margin>
+            </AnchorPane>
+         </top>
+         <center>
+            <VBox alignment="CENTER_RIGHT" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER_RIGHT">
+               <children>
+                  <Label text="Software Developing Company">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets bottom="50.0" right="35.0" />
+                     </VBox.margin>
+                  </Label>
+                  <Label text="We provide IT consulting, technology outsourcing&#10;and digital marketing services to integrate best of&#10;the web application development, standalone&#10;application &amp; Web design services.">
+                     <VBox.margin>
+                        <Insets right="35.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="body02" stylesheets="@assets/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.pages.HomePageFormController">
+   <children>
+      <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <center>
+            <BorderPane prefHeight="400.0" prefWidth="700.0">
+               <top>
+                  <Label fx:id="lblName" text="Hi, Lahiru.............." textAlignment="CENTER" textFill="#fe7c03" BorderPane.alignment="BOTTOM_LEFT">
+                     <font>
+                        <Font name="System Bold" size="24.0" />
+                     </font>
+                     <BorderPane.margin>
+                        <Insets left="30.0" top="30.0" />
+                     </BorderPane.margin>
+                  </Label>
+               </top>
+               <center>
+                  <VBox alignment="CENTER" prefHeight="293.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+                     <children>
+                        <Text fill="#fe7c03" stroke="#fcf9f7" strokeType="OUTSIDE" strokeWidth="2.0" text="Clothify" textAlignment="CENTER">
+                           <font>
+                              <Font name="System Bold Italic" size="48.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fe7c03" stroke="#f8f3f3" strokeType="OUTSIDE" strokeWidth="2.0" text="Store">
+                           <font>
+                              <Font name="System Bold Italic" size="48.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#fe7c03" stroke="#f8f3f3" strokeType="OUTSIDE" strokeWidth="2.0" text="(PVT) LTD">
+                           <font>
+                              <Font name="System Bold Italic" size="48.0" />
+                           </font>
+                        </Text>
+                     </children>
+                  </VBox>
+               </center>
+            </BorderPane>
+         </center>
+         <top>
+            <AnchorPane prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #FE7C03;" BorderPane.alignment="CENTER">
+               <children>
+                  <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfeff" height="40.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="2.0" AnchorPane.leftAnchor="0.0" />
+               </children>
+            </AnchorPane>
+         </top>
+      </BorderPane>
+   </children>
+</AnchorPane>

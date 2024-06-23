@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXRadioButton?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="body02" stylesheets="@assets/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.pages.ReportsPageFormController">
+
+    <children>
+        <BorderPane AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <top>
+                <AnchorPane prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #FE7C03;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfeff" height="40.0" layoutY="-2.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="2.0" AnchorPane.leftAnchor="0.0" />
+                  <Label layoutX="602.0" layoutY="5.0" text="Reports" textFill="#f5f2f2" AnchorPane.bottomAnchor="6.0" AnchorPane.rightAnchor="34.0" AnchorPane.topAnchor="5.0">
+                     <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                     </font>
+                  </Label>
+                    </children>
+                </AnchorPane>
+            </top>
+         <center>
+            <VBox alignment="CENTER_LEFT" prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Label text="Select Type:">
+                     <font>
+                        <Font name="System Italic" size="18.0" />
+                     </font>
+                  </Label>
+                  <JFXRadioButton fx:id="rbtnInventory" text="Inventory">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                     <selectedColor>
+                        <Color red="0.9960784316062927" green="0.48627451062202454" blue="0.0117647061124444" />
+                     </selectedColor>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="rbtnEmployee" layoutX="307.0" layoutY="165.0" text="Employee">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                     <selectedColor>
+                        <Color red="0.9960784316062927" green="0.48627451062202454" blue="0.0117647061124444" />
+                     </selectedColor>
+                  </JFXRadioButton>
+                  <JFXRadioButton fx:id="rbtnSupplier" layoutX="307.0" layoutY="174.0" text="Suppliers">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets left="50.0" />
+                     </VBox.margin>
+                     <selectedColor>
+                        <Color red="0.9960784316062927" green="0.48627451062202454" blue="0.0117647061124444" />
+                     </selectedColor>
+                  </JFXRadioButton>
+               </children>
+               <BorderPane.margin>
+                  <Insets left="250.0" />
+               </BorderPane.margin>
+            </VBox>
+         </center>
+         <bottom>
+            <VBox alignment="TOP_RIGHT" prefHeight="62.0" prefWidth="700.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="btnGenerate" alignment="CENTER" mnemonicParsing="false" onAction="#btnGenerateOnAction" prefHeight="30.0" prefWidth="135.0" style="-fx-background-color: #FE7C03;" text="Generate" textFill="#f5f3f3">
+                     <VBox.margin>
+                        <Insets right="50.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="System Bold Italic" size="14.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </bottom>
+        </BorderPane>
+    </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+
+q
+java:S1121".Extract the assignment out of this expression.(­—ÿ’8φ•ζ„ƒ2J$94da3557-7ed1-475a-94b0-c6a5ccc8a714
+_
+java:S1643%"Use a StringBuilder instead.(Γ΄¶η8–ζ„ƒ2J$99878cd9-f667-4009-8d84-aa5bc6102691
+›	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(‘η­8‚–ζ„ƒ2J$0e56361b-cd0e-4d0b-8e4a-b7ac7a6fb4e4
+α
+java:S6548"A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(‘¥ιρόÿÿÿÿ8¦–ζ„ƒ2J$10f86139-7eaf-4e24-9ee5-14dddc971b0b
+r	java:S106G"+Replace this use of System.out by a logger.(φά™ϋÿÿÿÿ8µ–ζ„ƒ2J$4d32a03a-4880-4e7a-9686-9a0aaefc6ec7
+ƒ	java:S125Y"<This block of commented-out lines of code should be removed.(ώΠεδϊÿÿÿÿ8½–ζ„ƒ2J$81bc0e32-165e-4ab7-b5af-6a262bd55c3d

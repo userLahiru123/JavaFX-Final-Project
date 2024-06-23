@@ -1,0 +1,8 @@
+
+P
+java:S1121".Extract the assignment out of this expression.(ı²ô‹ÿÿÿÿÿ8¬Î¤ş2
+¶
+java:S6548	"˜A Singleton implementation was detected. Make sure the use of the Singleton pattern is required and the implementation is the right one for the context.(Ã§Ó™8»Î¤ş2
+^
+java:S1126"AReplace this if-then-else statement by a single return statement.(Œ›Éô8»Î¤ş2
+L	java:S106&"+Replace this use of System.out by a logger.(Óõ›²úÿÿÿÿ8»Î¤ş2

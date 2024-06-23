@@ -1,0 +1,10 @@
+
+‚
+java:S1118":Add a private constructor to hide the implicit public one.(‡Œïøþÿÿÿÿ8ËÆ€Áÿ1J$b85e1cbf-a793-4575-9a10-e0feb8c4defa
+•	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(˜àŸ“ýÿÿÿÿ8ËÆ€Áÿ1J$6ef54909-a34a-4787-adb8-75e0ef002fad
+ƒ
+java:S1128";Remove this unused import 'edu.icet.crm.entity.ItemEntity'.(Ø€ÿËÿÿÿÿÿ8Ÿ¸”…„2J$9dd8d663-0476-4c40-9aa8-d6adb9b0e425
+„
+java:S1128"<Remove this unused import 'edu.icet.crm.entity.OrderEntity'.(‰ôžüÿÿÿÿ8Ÿ¸”…„2J$9b2a8a53-8f62-4991-9d93-9b0b649aa50e
+‡
+java:S1128"?Remove this unused import 'edu.icet.crm.entity.SupplierEntity'.(Â±Öÿýÿÿÿÿ8Ÿ¸”…„2J$b21b638b-4a85-4b43-bd35-5a4563677cb7

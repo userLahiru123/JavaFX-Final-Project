@@ -1,0 +1,23 @@
+
+£
+java:S14508"[Remove the "listForTable" field and declare it as a local variable in the relevant methods.(ŸÍéÇüÿÿÿÿ8ª¥…¥‚2J$4c64a9d6-1209-4f81-b0e3-790ddeb8b9a8
+u
+java:S1602€",Remove useless curly braces around statement(˜êýÁýÿÿÿÿ8º¥…¥‚2J$105ae854-df58-4cd1-878f-3faa99ab66fa
+‚
+java:S2130í">Use "Double.parseDouble" for this string-to-double conversion.(Ç’¨÷8É¥…¥‚2J$a9bdd7c7-12d8-4d5f-87d4-b4ea908ba58d
+…
+java:S6353š"<Use concise character class syntax '\\d' instead of '[0-9]'.(Ö´¯éùÿÿÿÿ8Ù¥…¥‚2J$6cbe09bc-d41f-4b32-a51d-7067682caaa9
+…
+java:S1126§"AReplace this if-then-else statement by a single return statement.(û¾·¥8Ù¥…¥‚2J$d369cc86-e818-4e4e-8c7d-14313579907a
+s	java:S106Ã"+Replace this use of System.out by a logger.(µþŒ—ÿÿÿÿÿ8è¥…¥‚2J$adeeb606-cc18-4ccc-a83e-cde55e9119c4
+n	java:S106Ö"+Replace this use of System.out by a logger.(ÑÆœö8è¥…¥‚2J$fd4f7e44-4712-432d-9b88-eb65ba74afb2
+W
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ýÿÿÿÿ8¾ã©ü‚2
+Z
+java:S1128"8Remove this unused import 'javafx.scene.input.KeyEvent'.(¦¶ Æøÿÿÿÿ8Îã©ü‚2
+p
+java:S1128"SRemove this unused import 'org.hibernate.metamodel.mapping.ordering.AliasResolver'.(¹Ýƒî8íã©ü‚2
+T
+java:S1128"7Remove this unused import 'java.text.SimpleDateFormat'.(ú¡ÙÛ8ýã©ü‚2
+H
+java:S1128"+Remove this unused import 'java.util.Date'.(¸…¼ü8†ä©ü‚2

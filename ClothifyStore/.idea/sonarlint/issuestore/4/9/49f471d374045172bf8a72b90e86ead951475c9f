@@ -1,0 +1,24 @@
+
+š
+java:S3655ô"VCall "alertButton.isPresent()" or "!alertButton.isEmpty()" before accessing the value.(šÖœŞ8íµıÜ2J$db22bb06-ccb3-44f8-918e-f07737720821
+‚
+java:S2130œ">Use "Double.parseDouble" for this string-to-double conversion.(®À²ÿ8ûµıÜ2J$4f132752-ac69-4df7-adb4-4e117d6de66a
+›
+java:S3776¶"RRefactor this method to reduce its Cognitive Complexity from 28 to the 15 allowed.(·Ñ½Øıÿÿÿÿ8‹¶ıÜ2J$682e0c0e-3fa2-4405-a0da-64130f2013c9
+†
+java:S1128">Remove this unused import 'edu.icet.crm.bo.custom.EmployeeBo'.(öŞ€ôüÿÿÿÿ8š¶ıÜ2J$27af818f-9ae7-46a4-a58f-27049acf0c45
+y
+java:S1128
+"6Remove this unused import 'edu.icet.crm.dto.Employee'.(Ïá´8š¶ıÜ2J$4fbc14bb-0293-4e34-8965-8035a6a0c806
+}
+java:S1128"5Remove this unused import 'javafx.event.ActionEvent'.(î•¯¼ıÿÿÿÿ8š¶ıÜ2J$acc6851b-8475-40a0-a755-3846a86b6be6
+€
+java:S1128"8Remove this unused import 'javafx.scene.input.KeyEvent'.(¦¶ Æøÿÿÿÿ8¨¶ıÜ2J$4704c098-b4c0-41f1-a930-56ff76ba5aed
+‚
+java:S1128":Remove this unused import 'javafx.scene.input.MouseEvent'.(˜¬‹æÿÿÿÿÿ8¨¶ıÜ2J$9cc35b08-3b73-412a-a48a-b0c78af07587
+w
+java:S1128"/Remove this unused import 'javafx.stage.Stage'.(æÄ¸²úÿÿÿÿ8¨¶ıÜ2J$492e3b15-6c0c-43cb-8449-b412d8436ac5
+x
+java:S1128"0Remove this unused import 'javafx.stage.Window'.(Ñ€Ş‡øÿÿÿÿ8¨¶ıÜ2J$5e5e8c2c-0f42-4e1e-8698-9dc97979dc2b
+r
+java:S1144İ".Remove this unused private "loadImage" method.(ƒÙŞé8¨¶ıÜ2J$68d15ac3-df0f-433a-8a8a-ee79963f4237

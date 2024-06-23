@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.21.3.final using JasperReports Library version 6.21.3-4a3078d20785ebe464f18037d738d12fc98c13cf  -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="sales_details" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="dbd15939-48ee-4645-ac22-6fe7c97d2396">
+	<property name="com.jaspersoft.studio.data.sql.tables" value=""/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="MyConnection"/>
+	<queryString language="SQL">
+		<![CDATA[SELECT date,COUNT(orderId),SUM(total) FROM orders GROUP BY date]]>
+	</queryString>
+	<field name="date" class="java.lang.String">
+		<property name="com.jaspersoft.studio.field.name" value="date"/>
+		<property name="com.jaspersoft.studio.field.label" value="date"/>
+		<property name="com.jaspersoft.studio.field.tree.path" value="orders"/>
+	</field>
+	<field name="COUNT(orderId)" class="java.lang.Long">
+		<property name="com.jaspersoft.studio.field.name" value="COUNT(orderId)"/>
+		<property name="com.jaspersoft.studio.field.label" value="COUNT(orderId)"/>
+	</field>
+	<field name="SUM(total)" class="java.lang.Double">
+		<property name="com.jaspersoft.studio.field.name" value="SUM(total)"/>
+		<property name="com.jaspersoft.studio.field.label" value="SUM(total)"/>
+	</field>
+	<group name="Group1">
+		<groupExpression><![CDATA[$F{date}]]></groupExpression>
+		<groupHeader>
+			<band height="33">
+				<textField>
+					<reportElement mode="Opaque" x="0" y="0" width="180" height="32" forecolor="#000508" backcolor="#E6E6E6" uuid="dd45cb29-1b3c-46be-b27c-02533a12d464"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="14" isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{date}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement x="-20" y="32" width="595" height="1" forecolor="#666666" uuid="54f90ad4-4f01-4d7a-9168-088aba4f3b0e"/>
+				</line>
+				<textField textAdjust="StretchHeight">
+					<reportElement x="380" y="3" width="174" height="20" uuid="4faafb94-6728-44ab-a1be-c427935f82bf">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e906d208-bbaa-4638-86d0-34d41532c132"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{SUM(total)}]]></textFieldExpression>
+				</textField>
+				<textField textAdjust="StretchHeight">
+					<reportElement x="180" y="2" width="200" height="20" uuid="2b7416af-1ee0-4e7f-86d6-6288842341be">
+						<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e445179e-018b-4561-8eff-c6317366e71f"/>
+					</reportElement>
+					<textElement textAlignment="Center">
+						<font size="14"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{COUNT(orderId)}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<background>
+		<band/>
+	</background>
+	<title>
+		<band height="72">
+			<frame>
+				<reportElement mode="Opaque" x="-20" y="-20" width="595" height="92" backcolor="#FE7C03" uuid="6aed5ad9-804e-4487-82de-ecbf5e9429a3"/>
+				<staticText>
+					<reportElement x="20" y="20" width="234" height="43" forecolor="#FFFFFF" uuid="5a6b79e3-7307-4d57-8d15-cabaaf255c41"/>
+					<textElement>
+						<font size="34" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Sales Details]]></text>
+				</staticText>
+			</frame>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="13"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="32">
+			<line>
+				<reportElement x="-20" y="20" width="595" height="1" forecolor="#666666" uuid="256a86e8-2ded-49fe-8357-aa0f798afdc7"/>
+			</line>
+			<staticText>
+				<reportElement mode="Opaque" x="180" y="0" width="200" height="20" forecolor="#FE7C03" backcolor="#E6E6E6" uuid="dac136bf-2f9a-44ec-a000-f034f253a905">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e445179e-018b-4561-8eff-c6317366e71f"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Number of Orders]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="380" y="0" width="174" height="20" forecolor="#FE7C03" backcolor="#E6E6E6" uuid="41950265-0507-49ec-9ad2-ee3f34755bd0">
+					<property name="com.jaspersoft.studio.spreadsheet.connectionID" value="e906d208-bbaa-4638-86d0-34d41532c132"/>
+				</reportElement>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<staticText>
+				<reportElement mode="Opaque" x="0" y="0" width="180" height="20" forecolor="#FE7C03" backcolor="#E6E6E6" uuid="7f6e7e34-5c05-4670-a5de-88020a71af15"/>
+				<textElement textAlignment="Center">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21"/>
+	</detail>
+	<columnFooter>
+		<band/>
+	</columnFooter>
+	<pageFooter>
+		<band height="17">
+			<textField>
+				<reportElement mode="Opaque" x="0" y="4" width="515" height="13" backcolor="#E6E6E6" uuid="858a9c23-ca12-4b0f-8214-e65944fb2cf8"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement mode="Opaque" x="515" y="4" width="40" height="13" backcolor="#E6E6E6" uuid="49982786-d7aa-40b8-a02d-330107669576"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="EEEEE dd MMMMM yyyy">
+				<reportElement x="0" y="4" width="100" height="13" uuid="64654923-84ac-41fe-9f4b-6ddd0b29479a"/>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band/>
+	</summary>
+</jasperReport>

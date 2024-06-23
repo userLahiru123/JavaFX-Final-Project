@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXComboBox?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="700.0" styleClass="body02" stylesheets="@assets/style.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="edu.icet.crm.controller.order.OrderPageFormController">
+    <children>
+        <BorderPane layoutX="-3.0" prefHeight="400.0" prefWidth="606.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <bottom>
+                <VBox alignment="TOP_RIGHT" prefHeight="67.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+                    <children>
+                        <HBox alignment="BOTTOM_CENTER" prefHeight="48.0" prefWidth="700.0">
+                            <children>
+                                <JFXButton fx:id="btnAddToCart" alignment="CENTER" onAction="#btnAddOnAction" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #FE7C03;" text="ADD TO CART" textAlignment="CENTER" textFill="#fcf8f8">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                    <HBox.margin>
+                                        <Insets right="20.0" />
+                                    </HBox.margin>
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton fx:id="btnClear" alignment="CENTER" layoutX="273.0" layoutY="48.0" onAction="#btnClearOnAction" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #FE7C03;" text="CLEAR" textAlignment="CENTER" textFill="#fcf8f8">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                    <HBox.margin>
+                                        <Insets right="20.0" />
+                                    </HBox.margin>
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </JFXButton>
+                                <JFXButton fx:id="btnRemove" alignment="CENTER" layoutX="347.0" layoutY="48.0" onAction="#btnDeleteOnAction" prefHeight="25.0" prefWidth="103.0" style="-fx-background-color: #FE7C03;" text="REMOVE" textAlignment="CENTER" textFill="#fcf8f8">
+                                    <cursor>
+                                        <Cursor fx:constant="HAND" />
+                                    </cursor>
+                                    <font>
+                                        <Font name="System Bold" size="12.0" />
+                                    </font>
+                                </JFXButton>
+                            </children>
+                            <VBox.margin>
+                                <Insets bottom="10.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children></VBox>
+            </bottom>
+            <top>
+                <AnchorPane prefHeight="35.0" prefWidth="600.0" style="-fx-background-color: #FE7C03;" BorderPane.alignment="CENTER">
+                    <children>
+                        <Label layoutX="502.0" layoutY="3.0" text="Orders" textFill="WHITE" AnchorPane.bottomAnchor="4.0" AnchorPane.rightAnchor="55.0" AnchorPane.topAnchor="4.0">
+                            <font>
+                                <Font name="System Bold Italic" size="16.0" />
+                            </font>
+                        </Label>
+                        <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#fdfeff" height="40.0" smooth="false" stroke="BLACK" strokeType="INSIDE" strokeWidth="0.0" width="2.0" />
+                    </children>
+                    <BorderPane.margin>
+                        <Insets />
+                    </BorderPane.margin>
+                </AnchorPane>
+            </top>
+            <center>
+                <VBox alignment="CENTER_RIGHT" prefHeight="349.0" prefWidth="629.0" BorderPane.alignment="CENTER">
+                    <children>
+                  <HBox alignment="TOP_CENTER" prefHeight="100.0" prefWidth="200.0">
+                     <children>
+                                  <JFXTextField fx:id="txtCustomerName" prefHeight="25.0" prefWidth="159.0" promptText="customer name" styleClass="text-field2" stylesheets="@assets/style.css">
+                                      <font>
+                                          <Font name="System Italic" size="12.0" />
+                                      </font>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                                  </JFXTextField>
+                                  <JFXTextField fx:id="txtCustomerEmail" promptText="customer email" styleClass="text-field2" stylesheets="@assets/style.css">
+                                      <font>
+                                          <Font name="System Italic" size="12.0" />
+                                      </font>
+                           <HBox.margin>
+                              <Insets right="20.0" />
+                           </HBox.margin>
+                                  </JFXTextField>
+                                  <JFXTextField fx:id="txtCustomerNic" promptText="customer  NIC" styleClass="text-field2" stylesheets="@assets/style.css">
+                                      <font>
+                                          <Font name="System Italic" size="12.0" />
+                                      </font>
+                                  </JFXTextField>
+                        <Label fx:id="lblOrderId" alignment="CENTER" prefHeight="17.0" prefWidth="63.0" style="-fx-background-color: #FE7C03;" text="OR001">
+                           <HBox.margin>
+                              <Insets left="20.0" />
+                           </HBox.margin>
+                           <font>
+                              <Font name="System Bold Italic" size="12.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                        <HBox alignment="CENTER" prefHeight="358.0" prefWidth="579.0">
+                            <children>
+                                <VBox prefHeight="248.0" prefWidth="179.0">
+                                    <children>
+                                        <TextField fx:id="lblSearch" onKeyReleased="#lblSearchOnAction" promptText="Search" styleClass="text-field2" stylesheets="@assets/style.css">
+                                            <font>
+                                                <Font name="System Italic" size="12.0" />
+                                            </font>
+                                            <VBox.margin>
+                                                <Insets top="20.0" />
+                                            </VBox.margin>
+                                        </TextField>
+                              <Label fx:id="lblErrorMsg" text="No Match Item...." textFill="#fc0707" />
+                              <JFXComboBox fx:id="cmbItemCode" onAction="#cmbItemCodeOnAction" prefHeight="25.0" prefWidth="222.0" promptText="item codes">
+                                 <VBox.margin>
+                                    <Insets top="10.0" />
+                                 </VBox.margin>
+                              </JFXComboBox>
+                              <HBox>
+                                 <children>
+                                    <Label prefHeight="17.0" prefWidth="104.0" text="Size :" />
+                                    <Label fx:id="lblSize" text="XL" />
+                                 </children>
+                                 <VBox.margin>
+                                    <Insets top="15.0" />
+                                 </VBox.margin>
+                              </HBox>
+                              <HBox>
+                                 <children>
+                                    <Label text="Quantity on hand : " />
+                                    <Label fx:id="lblQtyOnHand" layoutX="10.0" layoutY="10.0" text="50" />
+                                 </children>
+                              </HBox>
+                                        <JFXTextField fx:id="txtQty" layoutX="10.0" layoutY="35.0" promptText="quantity" styleClass="text-field2" stylesheets="@assets/style.css">
+                                            <font>
+                                                <Font name="System Italic" size="12.0" />
+                                            </font>
+                                            <VBox.margin>
+                                                <Insets bottom="10.0" top="10.0" />
+                                            </VBox.margin>
+                                        </JFXTextField>
+                              <JFXTextField fx:id="txtDiscount" layoutX="10.0" layoutY="174.0" promptText="discount" styleClass="text-field2" stylesheets="@assets/style.css">
+                                 <font>
+                                    <Font name="System Italic" size="12.0" />
+                                 </font>
+                              </JFXTextField>
+                              <Label fx:id="lblNetTotal" style="-fx-background-color: white;" text="0" textFill="#f50808">
+                                 <font>
+                                    <Font name="System Bold" size="16.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="20.0" top="10.0" />
+                                 </VBox.margin>
+                              </Label>
+                                    </children>
+                                </VBox>
+                                <VBox alignment="CENTER_LEFT" prefHeight="273.0" prefWidth="377.0">
+                                    <children>
+                                        <TableView fx:id="tblCart" prefHeight="170.0" prefWidth="314.0">
+                                            <columns>
+                                                <TableColumn fx:id="colItemCode" prefWidth="96.0" text="Item Code" />
+                                                <TableColumn fx:id="colQty" prefWidth="94.0" text="Quantity" />
+                                                <TableColumn fx:id="colUnitPrice" prefWidth="106.0" text="Unit Price" />
+                                                <TableColumn fx:id="colTotal" text="Total" />
+                                            </columns>
+                                            <VBox.margin>
+                                                <Insets bottom="5.0" />
+                                            </VBox.margin>
+                                        </TableView>
+                              <VBox alignment="TOP_RIGHT">
+                                 <children>
+                                    <JFXButton fx:id="btnPlaceOrder" alignment="CENTER" onAction="#btnPlaceOrderOnAction" prefHeight="25.0" prefWidth="119.0" style="-fx-background-color: #FE7C03;" text="PLACE ORDER" textAlignment="CENTER" textFill="#fcf8f8">
+                                       <cursor>
+                                          <Cursor fx:constant="HAND" />
+                                       </cursor>
+                                       <font>
+                                          <Font name="System Bold" size="12.0" />
+                                       </font>
+                                    </JFXButton>
+                                 </children>
+                              </VBox>
+                                    </children>
+                                    <HBox.margin>
+                                        <Insets left="30.0" />
+                                    </HBox.margin>
+                                </VBox>
+                            </children>
+                            <VBox.margin>
+                                <Insets left="40.0" />
+                            </VBox.margin>
+                        </HBox>
+                    </children>
+                    <BorderPane.margin>
+                        <Insets top="20.0" />
+                    </BorderPane.margin>
+                </VBox>
+            </center>
+        </BorderPane>
+    </children>
+</AnchorPane>
