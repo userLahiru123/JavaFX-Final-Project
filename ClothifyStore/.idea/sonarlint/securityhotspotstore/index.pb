@@ -284,3 +284,5 @@ w
 G.idea/sonarlint/issuestore/7/5/75d8b25c446f9832594a1fbd5bff5ecb198dfc8b,c\f\cfa303ea69b1c9ac08b6e7d406ff9f6e53361334
 w
 G.idea/sonarlint/issuestore/8/e/8eecad753b4c7be0ceff9a5e15b6c2700f6ef989,b\7\b7d8b9cff0557c224384e93d2692cc548d30bc28
+Q
+!src/main/java/AppInitializer.java,d\8\d8724d5ff68b00b1e87def6fac487d03194f989f
